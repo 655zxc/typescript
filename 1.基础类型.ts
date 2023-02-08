@@ -39,3 +39,8 @@ valueUnknown = true
 let testNumber:number = anyValue//any可以赋给任何值
 console.log(testNumber);
 // testNumber = valueUnknown//unknown不可以
+
+
+//设置多种类型
+let test:number|string = 1
+test = '1'
